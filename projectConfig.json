@@ -1,0 +1,60 @@
+{
+  "path": {
+    "src": {
+      "srcPath": "./src",
+      "html": [
+        "./src/**/*.html",
+        "!./src/**/_*.html",
+        "!./src/assets",
+        "!./src/_html"
+      ],
+      "style": [
+        "./src/styles/style.scss",
+        "./src/styles/fonts.scss"
+      ],
+      "script": [
+        "./src/script.js"
+      ],
+      "image": [
+        "./src/assets/img/*.*",
+        "./src/assets/img/icons/*.svg"
+      ],
+      "favicon": [
+        "./src/assets/favicon/*.*"
+      ],
+      "font": [
+        "./src/assets/fonts/**/*.*",
+        "!./src/assets/fonts/src/*.*"
+      ]
+    },
+    "dist": {
+      "distPath": "./dist",
+      "html": "./dist/",
+      "style": "./dist/styles/",
+      "script": "./dist/",
+      "image": "./dist/assets/img/",
+      "favicon": "./dist/",
+      "font": "./dist/assets/fonts/"
+    },
+    "watch": {
+      "html": "./src/**/*.html",
+      "style": [
+        "./src/styles/*.scss"
+      ],
+      "script": [
+        "./src/**/*.js"
+      ],
+      "image": [
+        "./src/assets/img/*.*",
+        "./src/assets/img/icons/*.svg"
+      ],
+      "favicon": [
+        "./src/assets/favicon/*.*"
+      ],
+      "font": [
+        "./src/assets/fonts/**/*.*",
+        "!./src/assets/fonts/src/*.*"
+      ]
+    }
+  }
+}
